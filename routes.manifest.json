@@ -1,0 +1,80 @@
+[
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/exercises",
+    "response_shape": "array",
+    "sample_body": null,
+    "sample_params": {},
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/exercises/[id]",
+    "response_shape": {
+      "description": "string",
+      "id": "int",
+      "image_url": "string",
+      "muscle_group": "string",
+      "name": "string"
+    },
+    "sample_body": null,
+    "sample_params": {
+      "id": 1
+    },
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/workouts",
+    "response_shape": "array",
+    "sample_body": null,
+    "sample_params": {},
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/workouts/[id]",
+    "response_shape": {
+      "date": "string",
+      "duration_minutes": "int",
+      "id": "int",
+      "notes": "string",
+      "sets": "array",
+      "title": "string"
+    },
+    "sample_body": null,
+    "sample_params": {
+      "id": 1
+    },
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/stats/weekly",
+    "response_shape": {
+      "total_duration_minutes": "int",
+      "total_sets": "int",
+      "total_workouts": "int",
+      "workouts_by_day": "array"
+    },
+    "sample_body": null,
+    "sample_params": {},
+    "success_status": 200
+  },
+  {
+    "auth_required": false,
+    "method": "GET",
+    "path": "/api/health",
+    "response_shape": {
+      "status": "string"
+    },
+    "sample_body": null,
+    "sample_params": {},
+    "success_status": 200
+  }
+]
