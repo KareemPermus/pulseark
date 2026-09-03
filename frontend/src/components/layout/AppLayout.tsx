@@ -7,6 +7,7 @@ const navItems = [
   { label: 'Dashboard', href: '/', icon: FiHome },
   { label: 'Workouts', href: '/workouts', icon: FiList },
   { label: 'Exercises', href: '/exercises', icon: FiBookOpen },
+  { label: 'ExerciseDetail', href: '/exercises/:id', icon: FiBookOpen },
 ];
 
 export default function AppLayout({ children }: { children: React.ReactNode }) {

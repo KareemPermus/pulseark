@@ -1,0 +1,12 @@
+.page { max-width: 720px; margin: 0 auto; }
+.center { padding: 4rem; text-align: center; color: #94a3b8; }
+.back { display: inline-flex; align-items: center; gap: 6px; color: #84cc16; font-size: 0.875rem; font-weight: 600; margin-bottom: 1.5rem; text-decoration: none; }
+.back:hover { text-decoration: underline; }
+.header { display: flex; align-items: center; gap: 1.5rem; margin-bottom: 2rem; }
+.img { width: 120px; height: 120px; object-fit: cover; border-radius: 16px; border: 1px solid #e2e8f0; }
+.title { font-size: 1.75rem; font-weight: 800; letter-spacing: -0.02em; color: #0f172a; margin: 0 0 8px; }
+.badge { display: inline-block; background: #f0fdf4; color: #65a30d; font-size: 0.75rem; font-weight: 600; padding: 4px 12px; border-radius: 9999px; text-transform: capitalize; }
+.card { background: #fff; border: 1px solid #e2e8f0; border-radius: 16px; padding: 1.5rem; }
+.cardTitle { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 1rem; margin-bottom: 1rem; color: #0f172a; }
+.instructions { padding-left: 1.25rem; margin: 0; display: flex; flex-direction: column; gap: 8px; color: #475569; font-size: 0.875rem; line-height: 1.6; }
+.noDesc { color: #94a3b8; font-size: 0.875rem; }
